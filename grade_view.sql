@@ -1,0 +1,1 @@
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `grades` AS select `sima_table`.`identification` AS `identification`,`sima_table`.`grade_avg` AS `grade_avg` from `sima_table` order by `sima_table`.`id`
